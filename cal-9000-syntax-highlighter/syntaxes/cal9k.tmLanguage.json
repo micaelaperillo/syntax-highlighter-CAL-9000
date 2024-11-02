@@ -1,0 +1,60 @@
+{
+	"fileTypes": ["cal9k"],
+	"scopeName": "cal9000",
+	"patterns": [
+	  {
+		"name": "keyword.control.function",
+		"match": "\\b(automata|rule|automatan't|rulen't)\\b"
+	  },
+	  {
+		"name": "entity.name.function.check",
+		"match": "\\b(check)\\b"
+	  },
+	  {
+		"name": "entity.name.function.grid",
+		"match": "\\bgrid\\b"
+	  },
+	  {
+		"name": "entity.name.function.property",
+		"match": "\\bprop:[a-zA-Z_]+\\b"
+	  },
+	  {
+		"name": "constant.numeric",
+		"match": "\\b\\d+\\b"
+	  },
+	  {
+		"name": "constant.color.hex",
+		"match": "#[0-9A-Fa-f]{6}"
+	  },
+	  {
+		"name": "constant.language.boolean",
+		"match": "\\b(true|false)\\b"
+	  },
+	  {
+		"name": "punctuation.separator.colon",
+		"match": ":"
+	  },
+	  {
+		"name": "punctuation.separator.comma",
+		"match": ","
+	  },
+	  {
+		"name": "keyword.operator.assignment",
+		"match": "="
+	  },
+	  {
+		"name": "punctuation.section.group.begin",
+		"match": "\\("
+	  },
+	  {
+		"name": "punctuation.section.group.end",
+		"match": "\\)"
+	  },
+	  {
+		"name": "comment.block", 
+		"begin": "/\\*",
+		"end": "\\*/"
+	  }
+	]
+  }
+  

@@ -1,0 +1,25 @@
+{
+  "name": "cal-9000-syntax-highlighter",
+  "displayName": "CAL 9000 Syntax Highlighting",
+  "description": "A Syntax Highlighting extension for the CAL 9000 Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cal9k",
+      "aliases": ["CAL 9000", "cal9k"],
+      "extensions": [".cal9k"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cal9k",
+      "scopeName": "cal9000",
+      "path": "./syntaxes/cal9k.tmLanguage.json"
+    }]
+  }
+}
