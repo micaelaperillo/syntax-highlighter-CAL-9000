@@ -16,7 +16,14 @@
 	  },
 	  {
 		"name": "entity.name.function.property",
-		"match": "\\bprop:[a-zA-Z_]+\\b"
+		"match": "\\bprop"
+	  },
+	  {
+		"name": "constant.property",
+		"match": "\\b[a-zA-Z_]+\\b",
+		"captures": {
+		  "1": { "name": "support.constant.property" }
+		}
 	  },
 	  {
 		"name": "constant.numeric",
